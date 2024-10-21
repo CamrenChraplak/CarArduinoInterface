@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0eefd274-6f05-4f26-b0e2-aa319a0b0e08")
+	(paper "A4")
+	(title_block
+		(title "Arduino")
+	)
+	(lib_symbols)
+)

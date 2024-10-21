@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "af06929f-c255-480d-896f-d897ea69d4a9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at -17.78 245.11)
+		(size 335.28 228.6)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89f9b750-4ff0-4a5a-b883-6de744980fea")
+		(property "Sheetname" "Arduino"
+			(at -17.78 244.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arduino.kicad_sch"
+			(at -17.78 474.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carinterface"
+				(path "/af06929f-c255-480d-896f-d897ea69d4a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 375.92 33.02)
+		(size 205.74 128.27)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdbd6f51-5023-48c8-ada9-1dad3d13ddaa")
+		(property "Sheetname" "Regulator"
+			(at 375.92 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulator.kicad_sch"
+			(at 375.92 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carinterface"
+				(path "/af06929f-c255-480d-896f-d897ea69d4a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 398.78 -99.06)
+		(size 193.04 101.6)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec4a5123-d7f3-41c8-bfd8-4c6bbd1bf3b1")
+		(property "Sheetname" "Amp"
+			(at 398.78 -99.7716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp.kicad_sch"
+			(at 398.78 3.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carinterface"
+				(path "/af06929f-c255-480d-896f-d897ea69d4a9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,101 @@
+(footprint "Thermal Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3edab219-d6b8-4ca8-b34d-797a22f848d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Thermal Pad"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe44bd87-92a5-40e0-b6f8-96c6a3e057af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bcb5b85-56b8-4903-81eb-b9ae278893bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20003370-7620-4ed3-8746-ea37a3a25d13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27ddc1ad-de12-483b-ba31-090e769258f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f744bde-e6f6-4d08-af9d-57b18ae29ca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.6875 0.625)
+		(size 16.625 11.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 20)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b0c2027d-5a8b-4ef6-a1cd-286bed70e64b")
+	)
+)
